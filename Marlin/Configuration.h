@@ -19,7 +19,7 @@
 // ***********   SOVOL PRINTERS w/V1.3.1 Board - GD32F103 CPU   *************
 //===========================================================================
 //#define SOVOL_SV06
-//#define SOVOL_SV06_PLUS                 //REQUIRES LCD KIT FOUND HERE: https://www.th3dstudio.com/product/sovol-sv06-plus-12864-lcd-conversion-upgrade-kit/
+#define SOVOL_SV06_PLUS                 //REQUIRES LCD KIT FOUND HERE: https://www.th3dstudio.com/product/sovol-sv06-plus-12864-lcd-conversion-upgrade-kit/
 
 // NOTE: If you have a SV06 Plus and the firmware will not flash rename the bin file
 // on your SD card to SV06PLUSMB.bin for the 1st time flashing.
@@ -32,11 +32,11 @@
 
 // EZABL Probe Mounts - Uncomment the mount you are using for your EZABL to enable EZABL support in the firmware.
 //#define SV06_EZABL_OEM_MOUNT
-//#define SV06_PLUS_EZABL_OEM_MOUNT
+#define SV06_PLUS_EZABL_OEM_MOUNT
 //#define CUSTOM_PROBE
 
 // SV06/SV06 PLUS EZABL Settings - If you are using the EZABL on this instead of the stock probe also uncomment the below line to set the EZABL settings
-//#define SV06_EZABL_INSTALLED
+#define SV06_EZABL_INSTALLED
 
 // SV06 Plus - Filament Sensor Override
 // If you have issues with your filament sensor on the SV06 Plus uncomment the below option to disable it.
@@ -53,10 +53,10 @@
  */
 
 // Probing Grid Points - If you want more or less EZABL probe points change the number below, use odd numbers. Total points is # times #.
-#define EZABL_POINTS 3
+#define EZABL_POINTS 5
 
 // Probe Edge - How far from the edge of the bed to probe from. Use 30 if using binder clips. This also sets the edge inset value for MANUAL_MESH_LEVELING.
-#define EZABL_PROBE_EDGE 15
+#define EZABL_PROBE_EDGE 25
 
 // Fast Probing - Works with most machines and all EZABL sensors (8mm/s)
 #define EZABL_FASTPROBE
@@ -201,8 +201,8 @@
 //#define FAN_FIX
 
 // Use your own printer name - Uncomment both lines
-//#define CUSTOM_PRINTER_NAME
-//#define USER_PRINTER_NAME "CHANGE ME"
+#define CUSTOM_PRINTER_NAME
+#define USER_PRINTER_NAME "SAM'S SV06++"
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
 //#define SLOWER_HOMING
