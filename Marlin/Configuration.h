@@ -237,7 +237,7 @@
  * Below are the frequency and damping settings for each axis.
  * Damping must have f at the end of the number and the range is 0.00-1.00.
  */
-//#define INPUT_SHAPING
+#define INPUT_SHAPING
 
 // X Axis Settings
 #define INPUT_SHAPING_FREQ_X 40
