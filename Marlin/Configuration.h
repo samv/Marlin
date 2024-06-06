@@ -292,8 +292,8 @@
  * 
  * Change the K Value with the LINEAR_ADVANCE_K line below or use M900 KX.XX in your starting code (recommended).
  */
-//#define LINEAR_ADVANCE
-#define LINEAR_ADVANCE_K 0
+#define LINEAR_ADVANCE
+#define LINEAR_ADVANCE_K 0.01f
 
 /**
  * Manual Mesh Leveling 
