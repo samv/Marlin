@@ -181,7 +181,7 @@
 //#define TH3D_BED_THERMISTOR
 
 // If you are using a Keenovo with SSR and the Keenovo temperature sensor uncomment the below line.
-//#define KEENOVO_TEMPSENSOR
+#define KEENOVO_TEMPSENSOR
 
 // If you are using a known bed thermistor value uncomment the below 2 lines and enter the thermistor number replacing the X after the #define KNOWN_BED_THERMISTOR_VALUE
 //#define KNOWN_BED_THERMISTOR
