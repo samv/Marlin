@@ -542,9 +542,9 @@
   #define DEFAULT_Ki 1.30
   #define DEFAULT_Kd 48.96
   
-  #define DEFAULT_bedKp 110.38
-  #define DEFAULT_bedKi 6.12
-  #define DEFAULT_bedKd 497.3
+  #define DEFAULT_bedKp 14.26
+  #define DEFAULT_bedKi 0.32
+  #define DEFAULT_bedKd 428
 
   #define ENDSTOPPULLUPS
 
