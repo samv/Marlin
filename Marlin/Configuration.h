@@ -387,7 +387,7 @@
  * If you need to free up flash and ram space to enable more features you can disable the SD card slot on the board.
  * Only do this if you are only printing to the printer over USB from something like Octoprint/EZPi or your PC.
  */
-//#define NO_SDCARD
+#define NO_SDCARD
 
 //===========================================================================
 // **********************  END CONFIGURATION SETTINGS   *********************
