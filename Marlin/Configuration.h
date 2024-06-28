@@ -243,8 +243,8 @@
 #define INPUT_SHAPING_FREQ_X 40
 #define INPUT_SHAPING_DAMPING_X 0.15f
 // Y Axis Settings
-#define INPUT_SHAPING_FREQ_Y 40
-#define INPUT_SHAPING_DAMPING_Y 0.15f
+#define INPUT_SHAPING_FREQ_Y 30
+#define INPUT_SHAPING_DAMPING_Y 0.20f
 
 /**
  * Bed and Z Height Adjustments
