@@ -283,7 +283,7 @@
  * 
  * Enabling the below line will set the babystep resolution from 0.025mm to 0.010mm for finer control.
  */
-//#define FINE_BABYSTEPPING
+#define FINE_BABYSTEPPING
 
 /**
  * Linear Advance
